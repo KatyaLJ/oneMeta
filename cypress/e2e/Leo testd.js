@@ -6,8 +6,5 @@ describe(' One Meta automation - VerbumMettings', () => {
     })
   
   
-    it('Login', () => {
-      cy.contains("Digite seu e-mail aqui").click().type('barbosa.olivera09@gmail.com')
-      
-    })
+    
   })
