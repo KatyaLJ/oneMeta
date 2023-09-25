@@ -1,13 +1,11 @@
 export class NavigationPage {
     
     homePage(){
-        cy.get(':nth-child(1) > ._link_yw6ts_1').click().wait(2000)
+        cy.get(':nth-child(1) > ._link_yw6ts_1').click()
     }
-
     uploadPage(){
-        cy.get(':nth-child(2) > ._link_yw6ts_1').click().wait(2000)
+        cy.get(':nth-child(2) > ._link_yw6ts_1').click()
     }
-
     myFilesPage(){
         cy.get(':nth-child(3) > ._link_yw6ts_1').click()
     }
@@ -15,8 +13,7 @@ export class NavigationPage {
         cy.get(':nth-child(4) > ._link_yw6ts_1').click()
     }
     settingsPage(){
-        cy.get(':nth-child(5) > ._link_yw6ts_1').click().wait(2000)
-        
+        cy.get(':nth-child(5) > ._link_yw6ts_1').click()
     }
 
     

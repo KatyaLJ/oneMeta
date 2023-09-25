@@ -2,8 +2,11 @@
 import { onLoginPage } from "../support/page_objects/loginPage"
 import { onLogOutPage } from "../support/page_objects/logOutPage"
 import { navigateTo } from "../support/page_objects/navigationPage"
+
 //import { onMyFilesPage } from "../support/page_objects/myFilesPage"
 //import { onMyFilesPage } from "../support/page_objects/myFilesPage"
+
+const data = require ('../e2e/data.json')
 
 describe('Test with Page Objects', ( ) =>{
 
@@ -18,7 +21,7 @@ describe('Test with Page Objects', ( ) =>{
 
     it('should login', () => {
         
-        onLoginPage.loginwithEmailAndPassword('naomi@olinadt.com', 'Testing123.')
+        onLoginPage.loginwithEmailAndPassword(data.correo, data.password)
         //onLogOutPage.clickOnLogOutButton()
         navigateTo.homePage()
         navigateTo.uploadPage()
