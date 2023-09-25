@@ -1,4 +1,5 @@
 //import { onHomePage } from "../support/page_objects/homePage"
+import { onForgotPassPage } from "../support/page_objects/forgotPasswordPage"
 import { onLoginPage } from "../support/page_objects/loginPage"
 import { onLogOutPage } from "../support/page_objects/logOutPage"
 import { navigateTo } from "../support/page_objects/navigationPage"
@@ -30,4 +31,5 @@ describe('Test with Page Objects', ( ) =>{
         navigateTo.settingsPage()
         onLogOutPage.clickOnLogOutButton()
     })
+
 })
