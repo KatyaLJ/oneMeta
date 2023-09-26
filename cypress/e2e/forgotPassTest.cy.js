@@ -9,7 +9,7 @@ describe('Test with Page Objects', ( ) =>{
         cy.openHomePage()
     })
 
-    it.only('should open forgot password page', () =>{
+    it('should open forgot password page', () =>{
       onForgotPassPage.forgotPassword()
       onForgotPassPage.cancelAndReturn()
       onForgotPassPage.forgotPassword()
