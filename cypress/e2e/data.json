@@ -1,5 +1,9 @@
 {
 
-    "correo": "naomi@olinadt.com",
-    "password": "Testing123."
+    "correo": "katya@olinadt.com",
+    "password": "KatyaOlin85**",
+    "name": "Katya",
+    "company": "ADT",
+    "emailtofail" : "thisisasampletoprovetheallowedlengthoftheinputfield@mail.com",
+    "passtofail" : "My$ecureP@ss1sample"
 }
