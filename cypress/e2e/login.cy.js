@@ -12,7 +12,7 @@ describe('Automation OneMeta', () => {
 
 //hacer login con correo y contraseña correctos
 it('login', ()=>{
-  cy.get('#email').should('have.length.of.at.most, 50').type('naomi@olinadt.com')
+  cy.get('#email').should('be.visible').type('naomi@olinadt.com')
   //cy.get('#email').should('be.visible').type('').should('to.have.length.of.at.most(100)')
     cy.get('#password').should('be.visible').type('Testing123.')
     cy.get("[class='submit']").click()
