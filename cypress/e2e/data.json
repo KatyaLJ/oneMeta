@@ -2,9 +2,10 @@
 
     "correo": "katya@olinadt.com",
     "password": "KatyaOlin85**",
-    "name": "Katya",
+    "name": "Melissa",
     "company": "ADT",
     "emailtofail" : "thisisasampletoprovetheallowedlengthoftheinputfield@mail.com",
     "passtofail" : "My$ecureP@ss1sample",
-    "lastname": "Jácome"
+    "lastname": "Jácome",
+    "fullName": "Katya Laso"
 }
